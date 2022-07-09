@@ -1,0 +1,18 @@
+import pyautogui,random
+import cv2 as cv
+from pynput.keyboard import Listener
+image_2=cv.imread('huy/face.png',0)
+width_2=image_2.shape[0]
+hight_2=image_2.shape[1]
+x=187
+y=71
+w=997
+h=605
+while True:
+    pyautogui.screenshot('huy/screen.png',(x,y,w,h))
+    image_1=cv.imread('huy/screen.png',0)
+    res=cv.matchTemplate(image_1,image_2,cv.TM_CCOEFF_NORMED)
+    ghd,max_vl,min_c,max_c=cv.minMaxLoc(res)
+    if max_vl >= 0.8:
+        squar=max_c[0]+x,max_c[1]+y
+        pyautogui.click(squar)

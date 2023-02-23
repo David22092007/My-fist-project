@@ -189,5 +189,6 @@ while True:
                         a.write(id_page+'\n')  
                     if i ==4:
                         print ('FAIL --'+str(datetime.datetime.now())+'==>Page Hiện Tại : '+str(len(len_)))
+                        print (id_page)
             break
     

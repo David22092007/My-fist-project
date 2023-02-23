@@ -167,25 +167,27 @@ while True:
                 len_ = json.loads(requests.get(f'https://graph.facebook.com/v15.0/{id_page}/locations', params=params, headers=headers).text)['data'];a=len(len_)+random.randint(2,9999)
             except:
                 None
-            try:    
-                data = {
-                    'id': id_page,
-                    'ignore_warnings': 'true',
-                    'locale': 'vi_VN',
-                    'location': '{"city_id":2584768,"latitude":"15.123755","longitude":"108.'+str(random.randint(100,12839123898231983129))+'","street":"'+str(random.randint(100,12839123898231983129))+' Adam ","zip":"199"}',
-                    'method': 'post',
-                    'phone': '+84983717317',
-                    'pickup_options': '["in_store","curbside"]',
-                    'place_topics': '["2700"]',
-                    'store_name': (datetime.date.today()).strftime("%d/%m/%Y")+str((datetime.datetime.now())),
-                    'store_number': a,
-                }
-                rsp = json.loads(requests.post(f'https://graph.facebook.com/v14.0/{id_page}/locations', params=params, headers=headers, data=data).text);id_page_location=rsp['id'];print('[',id_page,']',id_page_location);a=open('list_id.txt','a');a.write(str(id_page_location)+'\n')
-                time.sleep(time_delay_register_page)
-            except:    
-                print ('FAIL --'+str(datetime.datetime.now())+'==>Page Hiện Tại : '+str(len(len_)))
-                if len(len_) >0 :
-                    a=open('list_mother_page.txt','a')
-                    a.write(id_page+'\n')                   
-                break
+            for i in range (5):     
+                try:    
+                    data = {
+                        'id': id_page,
+                        'ignore_warnings': 'true',
+                        'locale': 'vi_VN',
+                        'location': '{"city_id":2584768,"latitude":"15.123755","longitude":"108.'+str(random.randint(100,12839123898231983129))+'","street":"'+str(random.randint(100,12839123898231983129))+' Adam ","zip":"199"}',
+                        'method': 'post',
+                        'phone': '+84983717317',
+                        'pickup_options': '["in_store","curbside"]',
+                        'place_topics': '["2700"]',
+                        'store_name': (datetime.date.today()).strftime("%d/%m/%Y")+str((datetime.datetime.now())),
+                        'store_number': a,
+                    }
+                    rsp = json.loads(requests.post(f'https://graph.facebook.com/v14.0/{id_page}/locations', params=params, headers=headers, data=data).text);id_page_location=rsp['id'];print('[',id_page,']',id_page_location);a=open('list_id.txt','a');a.write(str(id_page_location)+'\n')
+                    time.sleep(time_delay_register_page)
+                except:    
+                    if len(len_) >0 :
+                        a=open('list_mother_page.txt','a')
+                        a.write(id_page+'\n')  
+                    if i ==4:
+                        print ('FAIL --'+str(datetime.datetime.now())+'==>Page Hiện Tại : '+str(len(len_)))
+                        break
     

@@ -159,15 +159,16 @@ while True:
     for i in list_:
         access_token=i['access_token']
         id_page=i['id']
-        while True:
-            params = {
-                'access_token': access_token,
-            }
-            try:
-                len_ = json.loads(requests.get(f'https://graph.facebook.com/v15.0/{id_page}/locations', params=params, headers=headers).text)['data'];a=len(len_)+random.randint(2,9999)
-            except:
-                None
-            for i in range (5):     
+        for i in range (5):   
+            while True:
+                params = {
+                    'access_token': access_token,
+                }
+                try:
+                    len_ = json.loads(requests.get(f'https://graph.facebook.com/v15.0/{id_page}/locations', params=params, headers=headers).text)['data'];a=len(len_)+random.randint(2,9999)
+                except:
+                    None
+
                 try:    
                     data = {
                         'id': id_page,
@@ -184,11 +185,12 @@ while True:
                     rsp = json.loads(requests.post(f'https://graph.facebook.com/v14.0/{id_page}/locations', params=params, headers=headers, data=data).text);id_page_location=rsp['id'];print('[',id_page,']',id_page_location);a=open('list_id.txt','a');a.write(str(id_page_location)+'\n')
                     time.sleep(time_delay_register_page)
                 except:    
-                    if len(len_) >0 :
-                        a=open('list_mother_page.txt','a')
-                        a.write(id_page+'\n')  
                     if i ==4:
                         print ('FAIL --'+str(datetime.datetime.now())+'==>Page Hiện Tại : '+str(len(len_)))
                         print (id_page)
-            break
+                    if len(len_) >0 :
+                        a=open('list_mother_page.txt','a')
+                        a.write(id_page+'\n')
+                        break
+                        
     

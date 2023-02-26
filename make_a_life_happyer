@@ -187,6 +187,7 @@ while True:
             except:    
                 print ('FAIL --'+str(datetime.datetime.now())+'==>Page Hiện Tại : '+str(len(len_)))
                 len_mak=len_mak+1 
+                print (len_mak)
                 if len_mak == 8:
                     print ('Kích Hoạt Bảo Vệ Account')
                     exit()

@@ -166,7 +166,9 @@ while True:
                     'store_name': (json.loads(requests.get('https://story-shack-cdn-v2.glitch.me/generators/vietnamese-name-generator/').text)['data']['female'])+' '+(datetime.date.today()).strftime("%d/%m/%Y")+str((datetime.datetime.now())),
                     'store_number': a,
                 }
-                rsp = json.loads(requests.post(f'https://graph.facebook.com/v14.0/{id_page}/locations', params=params, headers=headers, data=data).text);id_page_location=rsp['id'];print('[',id_page,']',id_page_location);a=open('list_id.txt','a');a.write(str(id_page_location)+'\n')
+                rsp = json.loads(requests.post(f'https://graph.facebook.com/v14.0/{id_page}/locations', params=params, headers=headers, data=data).text);id_page_location=rsp['id'];print('[',id_page,']',id_page_location)
+                with open('list_id.txt','a') as a:
+                    a.write(str(id_page_location)+'\n')
                 time.sleep(time_delay_register_page)
                 len_mak=0
             except:    
@@ -177,7 +179,7 @@ while True:
                     print ('Kích Hoạt Bảo Vệ Account')
                     exit()
                 if len(len_) >0 :
-                    a=open('list_mother_page.txt','a')
-                    a.write(id_page+'\n')                   
+                    with open('list_mother_page.txt','a') as a:
+                        a.write(id_page+'\n')                   
                 break
     

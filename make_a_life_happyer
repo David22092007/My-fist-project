@@ -110,22 +110,7 @@ def upload_page(cookie,time_,access_token_user,sll):
             time.sleep(time_)
             
         except:
-            None  
-      
-
-cookie=input('COOKIE =? ')
-try:
-    time_=int(input('Nhập time upload page : '))
-except:
-    None
-try:    
-    check_chooise=int(input('Bạn Muốn Upload Page Không 0/1: '))
-except:   
-    check_chooise=0
-try:
-    time_delay_register_page=int(input('Độ trễ thời gian register_page :'))
-except:
-    time_delay_register_page=500
+            None       
 access_token_user=gt(cookie)
 if check_chooise >0:
     try:

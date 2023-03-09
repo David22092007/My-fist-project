@@ -141,8 +141,12 @@ params = {
 }
 list_ = json.loads(requests.get(f'https://graph.facebook.com/v15.0/me/accounts', params=params, headers=headers).text)['data']
 len_mak=0
+count=0
 while True:
     for i in list_:
+        if count >=4:
+            exit()
+            
         access_token=i['access_token']
         id_page=i['id']
         while True:
@@ -171,6 +175,7 @@ while True:
                     a.write(str(id_page_location)+'\n')
                 time.sleep(time_delay_register_page)
             except:    
+                count=count+1 
                 print ('FAIL --'+str(datetime.datetime.now())+'==>Page Hiện Tại : '+str(len(len_)))
                 if len(len_) >0 :
                     a=open('list_mother_page.txt','a')

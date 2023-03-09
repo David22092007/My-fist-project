@@ -1,6 +1,7 @@
 import requests,datetime,time,random,os,json;requests=requests.session()
 a=1
 
+
 def gt(cookie):
     header_ = {
         'authority': 'business.facebook.com',
@@ -144,7 +145,7 @@ len_mak=0
 count=0
 while True:
     for i in list_:
-        if count >=4:
+        if count >=1:
             exit()
             
         access_token=i['access_token']
@@ -154,9 +155,10 @@ while True:
                 'access_token': access_token,
             }
             try:
-                len_ = json.loads(requests.get(f'https://graph.facebook.com/v15.0/{id_page}/locations', params=params, headers=headers).text)['data'];a=len(len_)+random.randint(2,9999)
+                len_ = json.loads(requests.get(f'https://graph.facebook.com/v15.0/{id_page}/locations', params=params, headers=headers).text);len_=len_['data'];a=len(len_)+random.randint(2,9999)
             except:
-                None
+                print ('Block Chức Năng')
+                exit()
             try:    
                 data = {
                     'id': id_page,
